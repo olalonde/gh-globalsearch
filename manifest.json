@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Github Global Search",
+  "description": "Makes Github's search bar search all github by default instead of the current repository.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.github.com/*",
+        "*://*.github.com/*"
+      ],
+      "js": [ "jquery-2.0.2.js", "contentscript.js" ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+
+  "permissions": [
+    "*://www.github.com/*",
+    "*://*.github.com/*"
+  ],
+
+  "icons": { "64": "icon64.png" }
+}
