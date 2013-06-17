@@ -22,5 +22,5 @@
     "*://*.github.com/*"
   ],
 
-  "icons": { "64": "icon64.png" }
+  "icons": { "64": "icon64.png", "120": "icon120.png" }
 }
