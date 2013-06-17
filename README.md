@@ -5,6 +5,6 @@ default instead of the current repository.
 
 # Usage
 
-Open this file from your web browser:
-[gh-globalsearch.crx](/gh-globalsearch.crx) or drag it into
+Download this file:
+[gh-globalsearch.crx](/gh-globalsearch.crx) and drag it into
 [chrome://extensions](chrome://extensions)
